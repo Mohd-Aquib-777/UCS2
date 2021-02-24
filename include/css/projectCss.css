@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{ font-family: 'Montserrat', sans-serif; overflow-x: hidden; }
+.nav-link{
+	cursor:pointer;
+	color:#3e3e3e;
+	text-decoration: none;
+
+}
+
+.nav-link:hover{
+    color:#5ce450!important;
+}
+#showLocation:hover{
+   display:block;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+.fbox{ display:flex; align-items: center; }
+.faicon{ font-size:34px; opacity: .7  }
+
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+#imgInner .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: up-down;
+}
+
+.row2{
+	background: #f3f0f0;
+    background: rgba(11, 241, 117, 0.15);
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.icon-box{
+	padding: 17px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    height: 80px;
+    user-select: none;
+}
+/* .services .icon-box::before {
+    content: '';
+    position: absolute;
+    background: #7cc576a6;
+    right: -60px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    z-index: -1;
+} */
+
+/* carousal css */
+
+.stretch-card>.card {
+	width: 100%;
+	min-width: 100%
+}
+
+body {
+	background-color: #f9f9fa
+}
+
+.flex {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+	.padding {
+		padding: 1.5rem
+	}
+}
+
+@media (max-width:767.98px) {
+	.padding {
+		padding: 1rem
+	}
+}
+
+.padding {
+	padding: 3rem
+}
+
+.owl-carousel .item {
+	margin: 3px
+}
+
+.owl-carousel .item img {
+	display: block;
+	width: 200px;
+	height: 200px
+}
+
+.owl-carousel .item {
+	margin: 3px
+}
+
+.owl-carousel {
+	margin-bottom: 15px
+}
+
+/* .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.bx {
+    font-family: 'boxicons'!important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+.wrap {
+    margin: 0px;
+    padding: 0px 5%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-sign {
+    width: 20px;
+    margin-left: -10px;
+    margin-right: 10px;
+    border: 2px solid #3e3e3e;
+    border-radius: 50px;
+    margin-bottom: 3px;
+    background: #000;
+    /* box-shadow: -1px -1px 0px 0px #333; */
+}
+
+.login-page .background {
+    width: 100%;
+    padding: 40px;
+    height: 100%;
+    background: linear-gradient(60deg, rgba(158, 189, 19, 0.5), rgba(0, 133, 82, 0.7)), url(https://buddy.zookev.in/wp-content/uploads/2020/06/ebike-bg.jpeg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#m-login {
+    margin-top: 0px;
+    z-index: 999999;
+}
+
+.login-page {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+/* .login-page .login {
+    width: 100%;
+    height: auto;
+    background: #FFF;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 25px;
+} */
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+	/*Without this, clicking will make it sticky*/
+	  pointer-events: none;
+}
+
