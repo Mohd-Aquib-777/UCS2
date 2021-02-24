@@ -20,6 +20,7 @@ require_once('include/header.php');
                 <div class="col-md-5 p-3">
                     <h4 class="font-weight-bold text-secondary">
                         Change Gears To The New Ecosystem. Book Your New Eco-Friendly Ride.
+                        Change Gears To The New Ecosystem. Book Your New Eco-Friendly Ride.
                     </h4>
                 </div>
                 <div class="col-md-2 p-3">
